@@ -1,0 +1,26 @@
+<html>
+    <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    <script src="/javascripts/home.js"></script>
+    <span id="titl">{{title}}</span>
+   <button id="sbtn" value="Submit" onclick="SignOff()">Sign Off</button>
+   <style>
+       th{
+           padding-right: 20px
+       }
+    </style>
+    </head>
+   <body>
+        <div id="myDIV" class="header">
+  <h2 style="margin:5px">My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="addTodo()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL">
+  
+  
+</ul>
+   </body>
+</html>
