@@ -51,7 +51,7 @@ ul li.checked {
 ul li.checked::before {
   content: '';
   position: absolute;
-  border-color: #fff;
+  border-color: rgb(253, 157, 157);
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 10px;
@@ -70,8 +70,8 @@ ul li.checked::before {
 }
 
 .close:hover {
-  background-color: #f44336;
-  color: white;
+  background-color: #ff6b6034;
+  color: rgb(196, 132, 132);
 }
 
 .data {
@@ -82,15 +82,15 @@ ul li.checked::before {
 }
 
 .data:hover {
-  background-color: #429bf4;
+  background-color: #15314d;
   color: white;
 }
 
 /* Style the header */
 .header {
-  background-color: #f44336;
+  background-color: #1b2738;
   padding: 30px 40px;
-  color: white;
+  color: rgb(206, 182, 75);
   text-align: center;
 }
 
@@ -114,8 +114,8 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: #d9d9d9;
-  color: #555;
+  background: #bebebe;
+  color: rgb(121, 151, 150);
   float: left;
   text-align: center;
   font-size: 16px;
@@ -124,7 +124,7 @@ input {
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: rgb(85, 164, 179);
 }
 
 #sbtn{
