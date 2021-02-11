@@ -1,0 +1,28 @@
+<html>
+
+<head>
+
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="/javascripts/login.js"></script>
+	<h1>{{title}}</h1>
+	<style>
+		th {
+			padding-right: 20px
+		}
+	</style>
+</head>
+
+<body>
+	<div id="afterSignUp">
+	<input type="text" name="email" id="loginEmail" placeholder="Enter email">
+	<input type="text" name="Password" id="loginPassword" placeholder="Enter password">
+	<button value="Submit" onclick="userLogin()">Login</button>
+	<br>
+	<br>
+	<input type="text" name="email" id="signUpEmail" placeholder="Enter email">
+	<input type="text" name="Password" id="signInPassword" placeholder="Enter password">
+	<button value="Submit" onclick="userSignUp()">signUp</button>
+	</div>
+</body>
+
+</html>
