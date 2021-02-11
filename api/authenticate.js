@@ -15,4 +15,27 @@ authenticate = (req, res, next) => {
 			// check if password matches
 			if (user.password != req.body.password) {
 				res.json({ success: false, message: 'Authentication failed. Wrong password.' });
+			} else {
+
+
+				req.session.email = req.body.email;
+				req.session.isLogged = true;
+				console.log('inside auth', req.session.email);
+				
+				// return the information including token as JSON
+				res.json({
+					success: true,
+					message: 'user logged in!',
+					isLogged : req.session.isLogged
+		
+				});
 			}
+
+		}
+
+	});
+}
+
+module.exports = {
+	authenticate
+}
