@@ -9,7 +9,7 @@ var auth = function (req, res, next) {
      return res.json({ status: 'FAILED', message: 'Please login.' });
 };
 
-var authenticate = require('..api/authenticate')
+var authenticate = require('../api/authenticate')
 var addUser = require('../api/addUser')
 var logout = require('../api/logout')
 var addTodo = require('../api/addTodo')
