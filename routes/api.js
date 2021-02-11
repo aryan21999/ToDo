@@ -22,7 +22,7 @@ router.post('/add', addUser.addUser)
 router.post('/logout', logout.logout)
 router.post('/add', addTodo.add)
 router.post('/list', listTodo.list)
-router.post('/delete', deleteTodo.delete)
+router.post('/delete', deleteTodo.del)
 router.post('/check', checkTodo.check)
 
 
