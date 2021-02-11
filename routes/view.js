@@ -27,4 +27,14 @@ router.get('/signup', function(req, res, next ){
   res.render('signup')
 });
 
+// router.get('/', function (req, res, next) {
+// 	res.render('login', { title: 'MyTodosApp' });
+// });
+
+// router.get('/logout', auth, function (req, res, next) {
+// 	req.session.isLogged = false,
+// 	req.session.destroy();
+// 	res.redirect('/');
+// });
+
 module.exports = router;
