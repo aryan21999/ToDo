@@ -1,13 +1,13 @@
 var db = require('../mongodb');
 
 add = (req, res, next) => {
-    //console.log('token', req.session.email);
-    todoRes = {
+	// console.log('tokenn', req.session.email);
+	todoRes = {
         text: req.body.text,
         completed: req.body.completed
-    }
-    
-    console.log(req.session.email);
+	}
+
+	console.log(req.session.email);
 	db.Todos.findOne({ admin: req.session.email, text: todoRes.text })
 		.then(function (response) {
 			if (!response) {

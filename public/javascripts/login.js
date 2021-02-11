@@ -54,3 +54,10 @@ function userSignUp() {
 		alert('email or password cannot be null!!');
 	}
 }
+
+
+
+
+
+
+

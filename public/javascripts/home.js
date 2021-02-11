@@ -1,3 +1,7 @@
+
+
+
+
 function SignOff() {
 	axios.post('/api/logout')
 		.then(function (response) {
