@@ -18,7 +18,7 @@ router.get('/home', auth, function (req, res, next) {
 
 /* GET login page. */
 router.get('/', function (req, res, next) {
-	res.render('welcome', { title: 'MyTodosApp' });
+	res.render('welcome', { title: ' What we have to do?' });
 });
 
 router.get('/signin', function (req, res, next) {
