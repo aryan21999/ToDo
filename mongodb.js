@@ -1,6 +1,6 @@
 var mongoose = require('mongoose')
 mongoose.Promise= require('bluebird')
-mongoose.connect('mongodb+srv://Aryan:09876Arya@cluster0.h0l2c.mongodb.net/todo?retryWrites=true&w=majority')
+mongoose.connect('mongodb+url')
 
 var schema1 = new mongoose.Schema({
 	 admin : String,
